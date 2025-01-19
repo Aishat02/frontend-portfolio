@@ -3,7 +3,7 @@ import Home from "./components/Home.tsx";
 import About from "./components/About.tsx";
 import Projects from "./components/Projects.tsx";
 import Contact from "./components/Contact.tsx";
-import Footer from "./components/footer.tsx";
+import Footer from "./components/Footer.tsx";
 import "./App.css";
 
 function App() {

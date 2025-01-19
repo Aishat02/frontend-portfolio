@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import weatherApp from "../assets/weather-app-preview.png";
 import github from "../assets/github-logo.svg";
 import webNetwork from "../assets/web-logo.svg";
 import multiStepForm from "../assets/mobile-design.jpg";
-import {Button, Toast, ToastContainer} from 'react-bootstrap';
+import {Toast, ToastContainer} from 'react-bootstrap';
 
 const Projects = () => {
     const [show, setShow] = useState(false);
