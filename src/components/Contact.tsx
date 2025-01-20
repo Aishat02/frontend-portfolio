@@ -46,8 +46,8 @@ const Contact = () => {
             id="validationCustomUsername"
             aria-describedby="inputGroupPrepend"
             placeholder="Jane Doe"
-            minLength={5}
-            maxLength={7}
+            minLength={2}
+            maxLength={100}
             required
           />
           <div className="invalid-feedback">Please provide a valid name.</div>
@@ -80,7 +80,7 @@ const Contact = () => {
             id="validationCustom02"
             placeholder="Collaboration on the Janedoe Project"
             minLength={4}
-            maxLength={100}
+            maxLength={300}
             required
           />
           <div className="invalid-feedback">
@@ -95,7 +95,7 @@ const Contact = () => {
             className="form-control"
             name="message"
             id="validationTextarea"
-            minLength={20}
+            minLength={10}
             rows={1}
             required
           ></textarea>
