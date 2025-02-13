@@ -13,7 +13,7 @@ const Contact = () => {
             event.preventDefault();
             event.stopPropagation();
           } else {
-            form.submit();
+            (form as HTMLFormElement).submit();
           }
           form.classList.add("was-validated");
         },
@@ -31,9 +31,9 @@ const Contact = () => {
       </p>
       <form
         name="contact"
-        method="POST"
+        method="post"
         className="row g-3 needs-validation"
-        netlify
+        data-netlify="true"
         noValidate
       >
         <input type="hidden" name="form-name" value="contact" />
