@@ -1,5 +1,5 @@
 import brandLogo from "../assets/brand-logo.jpg";
-import Bar from "./Bar.tsx";
+import Bar from "./Bar";
 
 const Navbar = () => {
   return (

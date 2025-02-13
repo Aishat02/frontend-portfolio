@@ -1,4 +1,4 @@
-import TechStack from "../components/Techstack.tsx";
+import TechStack from "../components/Techstack";
 
 const About = () => {
   return (

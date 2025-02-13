@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar.tsx";
-import Home from "./components/Home.tsx";
-import About from "./components/About.tsx";
-import Projects from "./components/Projects.tsx";
-import Contact from "./components/Contact.tsx";
-import Footer from "./components/Footer.tsx";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
