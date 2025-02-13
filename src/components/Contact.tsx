@@ -29,7 +29,7 @@ const Contact = () => {
       </p>
       <form
         name="contact"
-        method="post"
+        method="POST"
         className="row g-3 needs-validation"
         data-netlify="true"
         noValidate
