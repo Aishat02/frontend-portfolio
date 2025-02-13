@@ -34,11 +34,11 @@ const Projects = () => {
               </div>
             </div>
             <div className="d-flex justify-content-between">
-              <a href="#" className="btn btn-dark d-flex align-items-center">
+              <a href="https://aishat02.github.io/SheCodes-Weather-App/" target="blank" className="btn btn-dark d-flex align-items-center">
                 <img src={webNetwork} alt="" width={16} />
                 <span className="ps-2">Website</span>
               </a>
-              <a href="#" className="btn border d-flex align-items-center">
+              <a href="https://github.com/Aishat02/SheCodes-Weather-App" target="blank" className="btn border d-flex align-items-center">
                 <img src={github} alt="" width={18} />
                 <span className="ps-2">Source</span>
               </a>
