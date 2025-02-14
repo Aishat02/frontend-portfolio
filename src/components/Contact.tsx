@@ -95,7 +95,7 @@ const Contact = () => {
             name="message"
             id="validationTextarea"
             minLength={10}
-            rows={1}
+            rows={2}
             required
           ></textarea>
           <div className="invalid-feedback">
