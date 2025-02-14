@@ -2,21 +2,21 @@ div .container-fluid {
   scroll-margin-top: 4.5em !important;
 }
 .navbar a {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
 }
 .card-text {
   font-size: 15px;
 }
 .techstack div {
-  background-color: #f3f4f6 !important;
+  background-color: #f3f4f6;
   font-size: 15px;
 }
-.w-70 {
-  width: 60px !important;
+.w-60 {
+  width: 60px;
 }
-.w-100px {
-  width: 90px !important;
+.w-90px {
+  width: 90px;
 }
 .card-width {
   max-width: 400px;
@@ -30,7 +30,7 @@ div .container-fluid {
 
 @media (min-width: 768px) {
   .card-width {
-  max-width: unset;
-  row-gap:unset;
-}
-}
+    max-width: unset;
+    row-gap: unset;
+  }
+}/*# sourceMappingURL=App.css.map */

@@ -26,10 +26,10 @@ const Projects = () => {
             </p>
 
             <div className="row px-2 text-center justify-content-between gy-3 mb-3 techstack">
-              <div className="col-3 py-2 px-0 w-70 rounded-2">HTML</div>
-              <div className="col-2 py-2 px-0 w-70 rounded-2">CSS</div>
-              <div className="col-3 py-2 px-0 w-100px rounded-2">Bootstrap</div>
-              <div className="col-3 py-2 px-0 w-100px rounded-2">
+              <div className="col-3 py-2 px-0 w-60 rounded-2">HTML</div>
+              <div className="col-2 py-2 px-0 w-60 rounded-2">CSS</div>
+              <div className="col-3 py-2 px-0 w-90px rounded-2">Bootstrap</div>
+              <div className="col-3 py-2 px-0 w-90px rounded-2">
                 JavaScript
               </div>
             </div>
@@ -61,17 +61,17 @@ const Projects = () => {
             </p>
 
             <div className="row px-2 text-center justify-content-between gy-3 mb-3 techstack">
-              <div className="col-3 py-2 px-0 w-70 rounded-2">HTML</div>
-              <div className="col-3 py-2 px-0 w-70 rounded-2">CSS</div>
-              <div className="col-3 py-2 px-0 w-100px rounded-2">Bootstrap</div>
-              <div className="col-3 py-2 px-0 w-100px rounded-2">
+              <div className="col-3 py-2 px-0 w-60 rounded-2">HTML</div>
+              <div className="col-3 py-2 px-0 w-60 rounded-2">CSS</div>
+              <div className="col-3 py-2 px-0 w-90px rounded-2">Bootstrap</div>
+              <div className="col-3 py-2 px-0 w-90px rounded-2">
                 JavaScript
               </div>
-              <div className="col-5 py-2 px-0 w-100px rounded-2">ReactJs</div>
-              <div className="col-4 py-2 px-0 w-100px rounded-2">
+              <div className="col-5 py-2 px-0 w-90px rounded-2">ReactJs</div>
+              <div className="col-4 py-2 px-0 w-90px rounded-2">
                 TypeScript
               </div>
-              <div className="col-3 py-2 px-0 w-100px rounded-2">Sass</div>
+              <div className="col-3 py-2 px-0 w-90px rounded-2">Sass</div>
             </div>
             <div className="d-flex justify-content-between">
               <button className="btn btn-dark d-flex align-items-center" onClick={handleClick}>

@@ -1,0 +1,43 @@
+$whitebgcolor: #f3f4f6;
+$fontsize-15: 15px;
+$zero: 0;
+$width-60: 60px;
+$width-90: 90px;
+$width-400: 400px;
+
+div .container-fluid {
+  scroll-margin-top: 4.5em !important;
+}
+.navbar a {
+  padding: $zero;
+  margin: $zero;
+}
+.card-text {
+  font-size: $fontsize-15;
+}
+.techstack div {
+  background-color: $whitebgcolor;
+  font-size: $fontsize-15;
+}
+.w-60 {
+  width: $width-60;
+}
+.w-90px {
+  width: $width-90;
+}
+.card-width {
+  max-width: $width-400;
+  row-gap: 2.5em;
+}
+.card-img-width {
+  object-fit: cover !important;
+  object-position: top;
+  aspect-ratio: 4/4;
+}
+
+@media (min-width: 768px) {
+  .card-width {
+    max-width: unset;
+    row-gap: unset;
+  }
+}
