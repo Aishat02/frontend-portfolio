@@ -1,27 +1,34 @@
 div .container-fluid {
   scroll-margin-top: 4.5em !important;
 }
+
 .navbar a {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
+
 .card-text {
   font-size: 15px;
 }
+
 .techstack div {
   background-color: #f3f4f6;
   font-size: 15px;
 }
+
 .w-60 {
-  width: 60px;
+  width: 60px !important;
 }
+
 .w-90px {
-  width: 90px;
+  width: 90px !important;
 }
+
 .card-width {
   max-width: 400px;
   row-gap: 2.5em;
 }
+
 .card-img-width {
   object-fit: cover !important;
   object-position: top;
