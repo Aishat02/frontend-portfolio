@@ -27,7 +27,7 @@ const GradeTracker = () => {
 
           <div className="d-flex justify-content-between">
             <a
-              href="aris-gradetracker.netlify.app"
+              href="https://aris-gradetracker.netlify.app/"
               target="blank"
               className="btn btn-dark d-flex align-items-center"
             >
