@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const pageSection: Section[] = [
     { to: "home", name: "Home" },
-    { to: "techstack", name: "Tech-Stack" },
+    { to: "about", name: "About" },
     { to: "projects", name: "Projects" },
     { to: "contact", name: "Contact" },
   ];

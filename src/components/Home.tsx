@@ -4,10 +4,10 @@ import contact from "../assets/user-icon.svg";
 const Home = () => {
   return (
     <div className="container my-5 pt-5" id="home">
-      <h1 className="text-center">Hello, I'm Titilayo Tijani</h1>
+      <h1 className="text-center">Hello, I'm Titilayo Tijani😃</h1>
       <p className="text-center">
-        A frontend developer that specializes in creating responsive,
-        user-friendly, and interactive websites using the latest technologies.
+        A frontend developer with a passion for building scalable and efficient
+        responsive web applications
       </p>
 
       <div className="container d-flex justify-content-between">

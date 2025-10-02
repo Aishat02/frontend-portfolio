@@ -10,7 +10,7 @@ import sass from "../assets/sass-logo.svg";
 
 const Techstack = () => {
   return (
-    <div className="border mb-3" id="techstack">
+    <div className="border mb-3">
       <div className="border-bottom pt-1 d-flex align-items-center gap-2">
         <img
           src={girlCoder}
