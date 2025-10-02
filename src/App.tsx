@@ -1,20 +1,22 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
+import TechStack from "./components/Techstack";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import "./styles/App.css";
+import "./styles/App.scss";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer/>
+      <div className="container-fluid px-4">
+        <TechStack />
+        <Projects />
+        <Contact />
+      </div>
+      <Footer />
     </>
   );
 }

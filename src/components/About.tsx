@@ -2,7 +2,7 @@ import TechStack from "../components/Techstack";
 
 const About = () => {
   return (
-    <div className="container-fluid mb-5" id="about">
+    <div className="mx-4 mb-5" id="about">
       <h2>About Me</h2>
       <div>
         <p>
@@ -14,7 +14,7 @@ const About = () => {
           I'm currently seeking for new frontend development opportunities and
           am open to remote work.
         </p>
-        <TechStack/>
+        <TechStack />
       </div>
     </div>
   );

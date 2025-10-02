@@ -1,0 +1,15 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$custom_white: #f3f4f6;
+$lavender: lavender;
+$nav-pills-link-active-bg: $lavender;
+$offcanvas-horizontal-width: 150px;
+$custom-colors: (
+  "custom_white": $custom_white,
+  "lavender": $lavender,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/scss/bootstrap";

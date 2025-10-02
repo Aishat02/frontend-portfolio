@@ -12,7 +12,7 @@ const Contact = () => {
           if (!(form as HTMLFormElement).checkValidity()) {
             event.preventDefault();
             event.stopPropagation();
-          } 
+          }
           form.classList.add("was-validated");
         },
         false
@@ -21,7 +21,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="container-fluid mb-4" id="contact">
+    <div className="container-fluid my-5" id="contact">
       <h2>Let's Connect!</h2>
       <p>
         Feel free to reach out! I'm always excited to collaborate on new
