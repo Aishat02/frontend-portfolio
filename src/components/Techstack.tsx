@@ -10,7 +10,7 @@ import sass from "../assets/sass-logo.svg";
 
 const Techstack = () => {
   return (
-    <div className="border mx-2 mb-3" id="techstack">
+    <div className="border mb-3" id="techstack">
       <div className="border-bottom pt-1 d-flex align-items-center gap-2">
         <img
           src={girlCoder}
@@ -19,7 +19,7 @@ const Techstack = () => {
         />
         <h2>My Tech Stack</h2>
       </div>
-      <div className="test py-2 d-flex justify-content-between">
+      <div className="py-2 d-flex justify-content-between flex-wrap">
         <img src={html} alt="HTML5 icon" width={40} />
         <img src={css} alt="CSS3 icon" width={40} />
         <img src={javaScript} alt="JavaScript icon" width={40} />
