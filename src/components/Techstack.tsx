@@ -7,6 +7,8 @@ import bootstrap from "../assets/bootstrap-logo.svg";
 import reactJs from "../assets/react-logo.svg";
 import typeScript from "../assets/typescript-logo.svg";
 import sass from "../assets/sass-logo.svg";
+import nodejs from "../assets/nodejsDark.svg";
+import express from "../assets/express.svg";
 
 const Techstack = () => {
   return (
@@ -28,6 +30,8 @@ const Techstack = () => {
         <img src={reactJs} alt="ReactJs icon" width={40} />
         <img src={typeScript} alt="TypeScript icon" width={40} />
         <img src={sass} alt="sass icon" width={40} />
+        <img src={nodejs} alt="nodejs icon" width={40}/>
+        <img src={express} alt="express icon" width={40}/>
       </div>
     </div>
   );

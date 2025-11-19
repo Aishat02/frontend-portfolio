@@ -4,7 +4,7 @@ import webNetwork from "@/assets/web-logo.svg";
 
 const GradeTracker = () => {
   return (
-    <div className="col-sm-5 mb-4 mb-sm-0">
+    <div className="col-sm-6 mb-5 col-md-4">
       <div className="card shadow">
         <img src={gradeTracker} className="card-img-top" alt="..."></img>
         <div className="card-body">

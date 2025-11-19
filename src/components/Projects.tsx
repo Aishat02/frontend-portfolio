@@ -1,5 +1,6 @@
 import GradeTracker from "./projects/GradeTracker";
 import WeatherApp from "./projects/WeatherApp";
+import DevMatch from "./projects/DevMatch";
 
 const Projects = () => {
   return (
@@ -8,6 +9,7 @@ const Projects = () => {
       <div className="row justify-content-between my-3">
         <GradeTracker />
         <WeatherApp />
+        <DevMatch/>
       </div>
     </div>
   );
