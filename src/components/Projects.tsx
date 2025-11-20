@@ -7,9 +7,9 @@ const Projects = () => {
     <div id="projects">
       <h2>Projects</h2>
       <div className="row justify-content-between my-3">
+        <DevMatch/>
         <GradeTracker />
         <WeatherApp />
-        <DevMatch/>
       </div>
     </div>
   );
