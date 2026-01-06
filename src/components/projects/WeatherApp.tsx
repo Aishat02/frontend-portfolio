@@ -30,7 +30,7 @@ const WeatherApp = () => {
 
           <div className="d-flex justify-content-between">
             <a
-              href="https://aishat02.github.io/SheCodes-Weather-App"
+              href="https://aris-weather-app.netlify.app/"
               target="blank"
               className="btn btn-dark d-flex align-items-center"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const WeatherApp = () => {
               <span className="ps-2">Website</span>
             </a>
             <a
-              href="https://aris-weather-app.netlify.app/"
+              href="https://aishat02.github.io/SheCodes-Weather-App"
               target="blank"
               className="btn border d-flex align-items-center"
               aria-label="View the Weather App source code on GitHub"
