@@ -6,7 +6,11 @@ const WeatherApp = () => {
   return (
     <div className="col-sm-6 mb-5 col-md-4">
       <div className="card shadow">
-        <img src={weatherApp} className="card-img-top" alt="..."></img>
+        <img
+          src={weatherApp}
+          className="card-img-top"
+          alt="Weather application interface showing current temperature, humidity, and a 5-day forecast"
+        ></img>
         <div className="card-body">
           <h5 className="card-title">Weather App</h5>
           <p className="card-text">
@@ -29,16 +33,19 @@ const WeatherApp = () => {
               href="https://aishat02.github.io/SheCodes-Weather-App"
               target="blank"
               className="btn btn-dark d-flex align-items-center"
+              rel="noopener noreferrer"
+              aria-label="Visit the live Weather App website"
             >
-              <img src={webNetwork} alt="" width={16} />
+              <img src={webNetwork} alt="Open web link icon" width={16} />
               <span className="ps-2">Website</span>
             </a>
             <a
-              href="https://github.com/Aishat02/SheCodes-Weather-App"
+              href="https://aris-weather-app.netlify.app/"
               target="blank"
               className="btn border d-flex align-items-center"
+              aria-label="View the Weather App source code on GitHub"
             >
-              <img src={github} alt="" width={18} />
+              <img src={github} alt="GitHub logo" width={18} />
               <span className="ps-2">Source</span>
             </a>
           </div>
